@@ -8,11 +8,10 @@ module "redis" {
     ENV                 = var.ENV
 }
 
-# module "mysql" {
-#     source              = "./vendor/modules/mysql/"       # Terrafile clones the backend module mentioned in the Terrafile and keeps it local to the root 
-#     ENV                 = var.ENV
-#     AZ                  = var.AZ
-# }
+module "mysql" {
+    source              = "./vendor/modules/mysql/"       # Terrafile clones the backend module mentioned in the Terrafile and keeps it local to the root 
+    ENV                 = var.ENV
+}
 
 
 
