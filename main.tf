@@ -15,6 +15,12 @@ module "redis" {
 module "mysql" {
     source              = "./vendor/modules/mysql/"       # Terrafile clones the backend module mentioned in the Terrafile and keeps it local to the root 
     ENV                 = var.ENV
+    MYSQL_STORAGE       = var.MYSQL_STORAGE
+    MYSQL_ENGINE        = var.MYSQL_ENGINE
+    MYSQL_ENGINE_VERSION = var.MYSQL_ENGINE_VERSION
+    MYSQL_INSTANCE_TYPE = var.MYSQL_INSTANCE_TYPE
+    MYSQL_SKIP_SNAPSHOT = var.MYSQL_SKIP_SNAPSHOT
+    MYSQL_PORT          = var.MYSQL_PORT
 }
 
 module "rabbitmq" {
