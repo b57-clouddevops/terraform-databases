@@ -9,7 +9,7 @@ DOCDB_PORT           = 27017
 # RDS Variables
 MYSQL_STORAGE        = 100 
 MYSQL_ENGINE         = "mysql"
-MYSQL_ENGINE_VERSION = "mysql5.7" 
+MYSQL_ENGINE_VERSION = "5.7" 
 MYSQL_INSTANCE_TYPE  = "db.t3.medium"
 MYSQL_SKIP_SNAPSHOT  = true 
 MYSQL_PORT           = 3306
