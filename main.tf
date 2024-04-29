@@ -21,7 +21,6 @@ module "mysql" {
     MYSQL_INSTANCE_TYPE     = var.MYSQL_INSTANCE_TYPE
     MYSQL_SKIP_SNAPSHOT     = var.MYSQL_SKIP_SNAPSHOT
     MYSQL_PORT              = var.MYSQL_PORT
-    MYSQL_ENGINE_VERSION    = var.MYSQL_ENGINE_VERSION
 }
 
 module "rabbitmq" {
