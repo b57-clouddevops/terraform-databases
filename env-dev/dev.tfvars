@@ -14,6 +14,7 @@ MYSQL_ENGINE_VERSION = "5.7"
 MYSQL_INSTANCE_TYPE  = "db.t3.micro"
 MYSQL_SKIP_SNAPSHOT  = true 
 MYSQL_PORT           = 3306
+MYSQL_ENGINE_FAMILY  = "mysql5.7"
 
 # Rabbitmq Variables 
 RABBITMQ_PORT           = 5672
