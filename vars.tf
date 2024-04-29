@@ -7,7 +7,6 @@ variable "DOCDB_INSTANCE_TYPE" {}
 variable "DOCDB_PORT" {}
 
 # RDS Variables
-variable "ENV" {}
 variable "MYSQL_STORAGE" {}
 variable "MYSQL_ENGINE" {}
 variable "MYSQL_ENGINE_VERSION" {}
