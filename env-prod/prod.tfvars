@@ -13,3 +13,8 @@ MYSQL_ENGINE_VERSION = "5.7"
 MYSQL_INSTANCE_TYPE  = "db.t3.medium"
 MYSQL_SKIP_SNAPSHOT  = true 
 MYSQL_PORT           = 3306
+
+
+# Rabbitmq Variables 
+RABBITMQ_PORT           = 5672
+RABBITMQ_INSTANCE_TYPE = "t3.medium"
