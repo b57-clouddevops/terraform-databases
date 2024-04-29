@@ -18,3 +18,10 @@ MYSQL_PORT           = 3306
 # Rabbitmq Variables 
 RABBITMQ_PORT           = 5672
 RABBITMQ_INSTANCE_TYPE = "t3.medium"
+
+# Elasticcache Variables 
+REDIS_PORT               = 6379
+REDIS_ENGINE_VERSION     = "6.x"
+REDIS_ENGINE             = "redis"
+REDIS_INSTANCE_TYPE      = "cache.t3.medium"
+REDIS_INSTANCE_COUNT     = 3

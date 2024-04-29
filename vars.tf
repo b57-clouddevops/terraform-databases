@@ -18,3 +18,10 @@ variable "MYSQL_ENGINE_FAMILY" {}
 # Rabbitmq Variables
 variable "RABBITMQ_INSTANCE_TYPE" {}
 variable "RABBITMQ_PORT" {}
+
+# Redis Variables 
+variable "REDIS_PORT" {}
+variable "REDIS_ENGINE_VERSION" {}
+variable "REDIS_ENGINE" {}
+variable "REDIS_INSTANCE_TYPE" {}
+variable "REDIS_INSTANCE_COUNT" {}
