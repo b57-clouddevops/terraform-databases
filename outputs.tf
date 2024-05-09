@@ -4,3 +4,7 @@ output "DOCDB_ENDPOINT" {
 output "REDIS_ENDPOINT" {
     value = module.redis.REDIS_ENDPOINT
 }
+
+output "MYSQL_ENDPOINT" {
+    value = module.redis.MYSQL_ENDPOINT
+}
