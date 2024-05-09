@@ -6,5 +6,5 @@ output "REDIS_ENDPOINT" {
 }
 
 output "MYSQL_ENDPOINT" {
-    value = module.redis.MYSQL_ENDPOINT
+    value = module.mysql.MYSQL_ENDPOINT
 }
