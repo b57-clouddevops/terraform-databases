@@ -18,7 +18,7 @@ MYSQL_ENGINE_FAMILY  = "mysql5.7"
 
 # Rabbitmq Variables 
 RABBITMQ_PORT           = 5672
-RABBITMQ_INSTANCE_TYPE  = "t3.micro"
+RABBITMQ_INSTANCE_TYPE  = "t3.medium"
 
 # Elasticcache Variables 
 REDIS_PORT               = 6379
